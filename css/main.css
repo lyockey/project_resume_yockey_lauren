@@ -7,3 +7,52 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+.banner {
+    color: #ffffff;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0, 0, 0, 0.55) url('../img/banner.jpg') no-repeat fixed;
+    background-size: contain;
+    background-color: #fff7e6;
+    text-align: center;
+}
+
+nav {
+    margin: 3em 0;
+}
+
+nav li {
+    display: inline;
+    padding: 1.2em;
+    text-transform: lowercase;
+}
+
+nav li a,
+.button {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav li a,
+.button,
+#tagline {
+    font-family: 'Nixie One', cursive;
+}
+
+h1 {
+    padding-top: 1em;
+    margin-bottom: 0;
+    font-family: 'Zeyada', cursive;
+    font-size: 3em;
+    color: #e6ffff;
+}
+
+#tagline {
+    font-size: 1.5em;
+    margin: 0 0.5em 1em;
+}
+
+.button {
+    margin-top: 1em;
+    border: 0.5px solid #ffffff;
+    padding: 0.5em;
+}
