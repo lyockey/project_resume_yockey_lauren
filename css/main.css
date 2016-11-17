@@ -114,4 +114,10 @@ h1 {
     padding: 5em;
     background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0, 0, 0, 0.55) url(../img/ufbg.jpg) no-repeat center center fixed;
     background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+.edu h2 {
+    color: #ffffff;
 }
