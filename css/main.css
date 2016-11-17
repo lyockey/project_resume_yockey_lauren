@@ -24,6 +24,15 @@ h3 {
     font-size: 1.5em;
 }
 
+h4 {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+    margin: 1em 0;
+}
+
 /* ------- HEADER -------- */
 .banner {
     color: #ffffff;
@@ -49,6 +58,7 @@ nav li a,
     color: #ffffff;
 }
 
+h4,
 nav li a,
 .button,
 #tagline,
@@ -105,10 +115,6 @@ h1 {
     text-decoration: underline;
 }
 
-#nutshell li {
-    list-style-type: none;
-    margin: 1em 0;
-}
 
 /* --------- EDUCATION -------- */
 .edu {
@@ -123,10 +129,16 @@ h1 {
     color: #ffffff;
 }
 
-.edu li {
-    list-style-type: none;
-}
-
 .edu h3 {
     margin-top: 2em;
+}
+
+
+/* ------------ EXPERIENCE ------------ */
+.exp {
+    text-align: center;
+}
+
+.exp ul {
+    margin-bottom: 5em;
 }
