@@ -12,6 +12,14 @@ body {
     text-align: center;
 }
 
+.edu,
+.exp,
+.skills,
+.interests,
+.inq {
+    padding: 5em;
+}
+
 h1,
 h2 {
     font-family: 'Bungee Hairline', cursive;
@@ -117,7 +125,6 @@ h1 {
 
 /* --------- EDUCATION -------- */
 .edu {
-    padding: 5em;
     background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0, 0, 0, 0.55) url(../img/ufbg.jpg) no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
@@ -141,7 +148,6 @@ h1 {
 
 /* ---------- SKILLS ---------------- */
 .skills {
-    padding: 5em;
     background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0, 0, 0, 0.55) url(../img/php.jpg) no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
@@ -158,12 +164,16 @@ h1 {
 }
 
 /* -------- INTERESTS ------------ */
-.interests {
-    padding: 5em;
-}
-
 .contact {
     color: #000000;
     border: 0.5px solid #000000;
     padding: 1em 3.5em;
+}
+
+/* ------------- FOOTER -------------- */
+footer {
+    background-color: rgba(0, 0, 0, 0.42);
+    color: #ffffff;
+    font-size: 0.7em;
+    padding: 1em;
 }
