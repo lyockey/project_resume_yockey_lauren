@@ -108,3 +108,10 @@ h1 {
     list-style-type: none;
     margin: 1em 0;
 }
+
+/* --------- EDUCATION -------- */
+.edu {
+    padding: 5em;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0, 0, 0, 0.55) url(../img/ufbg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
