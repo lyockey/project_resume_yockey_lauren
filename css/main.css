@@ -103,7 +103,8 @@ h1 {
     line-height: 40px;
 }
 
-#nutshell {
+#nutshell,
+.inq {
     background-color: #f6f7f7;
     padding: 5em 0;
 }
@@ -156,3 +157,12 @@ h1 {
 }
 
 /* -------- INTERESTS ------------ */
+.interests {
+    padding: 5em;
+}
+
+.contact {
+    color: #000000;
+    border: 0.5px solid #000000;
+    padding: 1em 3.5em;
+}
