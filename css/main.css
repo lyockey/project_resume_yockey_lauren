@@ -55,18 +55,36 @@ li {
 
 nav {
     margin: 3em 0;
+    width: 100%;
+}
+
+nav ul {
+    padding-left: 0;
 }
 
 nav li {
-    display: inline;
-    padding: 1.2em;
+    display: block;
+    padding: 1.2em 0;
     text-transform: lowercase;
 }
 
-nav li a,
+nav li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e4e7e7;
+    padding-bottom: 1.5em;
+}
+
+nav li:hover {
+    background-color: #f6f7f7;
+}
+
 .button {
     text-decoration: none;
     color: #ffffff;
+    font-size: 1em;
 }
 
 h4,
