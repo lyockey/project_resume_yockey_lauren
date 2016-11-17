@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    text-align: center;
+}
+
 h1,
 h2 {
     font-family: 'Bungee Hairline', cursive;
@@ -15,7 +19,6 @@ h2 {
 }
 
 h2 {
-    text-align: center;
     color: #003333;
 }
 
@@ -39,7 +42,6 @@ li {
     background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0, 0, 0, 0.55) url('../img/banner.jpg') no-repeat fixed;
     background-size: contain;
     background-color: #fff7e6;
-    text-align: center;
 }
 
 nav {
@@ -86,10 +88,6 @@ h1 {
 
 
 /* --------- ABOUT --------- */
-.about {
-    text-align: center;
-}
-
 #about-blurb {
     margin-bottom: 3em;
     padding: 2em;
@@ -122,7 +120,6 @@ h1 {
     background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0, 0, 0, 0.55) url(../img/ufbg.jpg) no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
-    text-align: center;
 }
 
 .edu h2,
@@ -136,10 +133,6 @@ h1 {
 
 
 /* ------------ EXPERIENCE ------------ */
-.exp {
-    text-align: center;
-}
-
 .exp ul {
     margin-bottom: 5em;
 }
@@ -152,3 +145,6 @@ h1 {
     background-size: cover;
     color: #ffffff;
 }
+
+
+/* -------- INTERESTS ------------ */
