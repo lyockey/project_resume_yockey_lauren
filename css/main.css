@@ -121,3 +121,11 @@ h1 {
 .edu h2 {
     color: #ffffff;
 }
+
+.edu li {
+    list-style-type: none;
+}
+
+.edu h3 {
+    margin-top: 2em;
+}
