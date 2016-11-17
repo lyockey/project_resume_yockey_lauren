@@ -146,5 +146,14 @@ h1 {
     color: #ffffff;
 }
 
+.copy-container {
+    margin: auto;
+    width: 60%;
+}
+
+.skills h3,
+.skills li {
+    text-align: left;
+}
 
 /* -------- INTERESTS ------------ */
