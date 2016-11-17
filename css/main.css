@@ -88,6 +88,16 @@ nav li {
     text-transform: lowercase;
 }
 
+nav li:hover {
+    background-color: #f6f7f7;
+}
+
+@media (min-with: 750px) {
+    nav li {
+        display: inline;
+    }
+}
+
 nav li a {
     text-decoration: none;
     color: #000000;
@@ -95,10 +105,6 @@ nav li a {
     text-transform: uppercase;
     border-bottom: 1px solid #e4e7e7;
     padding-bottom: 1.5em;
-}
-
-nav li:hover {
-    background-color: #f6f7f7;
 }
 
 h4,
