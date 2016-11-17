@@ -42,6 +42,7 @@ li {
     background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0, 0, 0, 0.55) url('../img/banner.jpg') no-repeat fixed;
     background-size: contain;
     background-color: #fff7e6;
+    padding: 1em 0;
 }
 
 nav {
