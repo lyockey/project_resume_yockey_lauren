@@ -105,3 +105,44 @@ bar6.animate(0.35);  // Number from 0.0 to 1.0
 
 
 ////////// SOFTWARE //////////////
+// PHOTOSHOP
+var bar7 = new ProgressBar.Line('#design1', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#1a75ff',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar7.animate(0.75);  // Number from 0.0 to 1.0
+
+//INDESIGN
+var bar8 = new ProgressBar.Line('#design2', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#1a75ff',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar8.animate(0.95);  // Number from 0.0 to 1.0
+
+//ILLUSTRATOR
+var bar9 = new ProgressBar.Line('#design3', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#1a75ff',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar9.animate(0.78);  // Number from 0.0 to 1.0
+
+
+/////// DIGITAL MARKETING //////
