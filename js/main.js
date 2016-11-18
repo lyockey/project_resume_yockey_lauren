@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
-    $('body').animatescroll({
-        scrollSpeed: 3000,
-        easing: 'easeOutBounce'
-    });
+    // $('body').animatescroll({
+    //     scrollSpeed: 3000,
+    //     easing: 'easeOutBounce'
+    // });
 
     $.toast({
         text: 'I also have accounts on <a href="https://www.linkedin.com/in/laurenyockey" target="_blank">LinkedIn</a> and <a href="https://www.github.com/lyockey" target="_blank">Github</a>', // Text that is to be shown in the toast
@@ -19,3 +19,89 @@ $(document).ready(function () {
     });
 
 });
+
+/////////////// SKILLS BARS //////////////////
+
+/////// LANGUAGES //////////
+
+//XHTML
+var bar1 = new ProgressBar.Line('#lang1', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#ffea82',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar1.animate(1.0);  // Number from 0.0 to 1.0
+
+
+//HTML5
+var bar2 = new ProgressBar.Line('#lang2', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#ffea82',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar2.animate(1.0);  // Number from 0.0 to 1.0
+
+//CSS
+var bar3 = new ProgressBar.Line('#lang3', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#ffea82',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar3.animate(0.9);  // Number from 0.0 to 1.0
+
+//JS
+var bar4 = new ProgressBar.Line('#lang4', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#ffea82',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar4.animate(0.5);  // Number from 0.0 to 1.0
+
+//jQuery
+var bar5 = new ProgressBar.Line('#lang5', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#ffea82',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar5.animate(0.55);  // Number from 0.0 to 1.0
+
+//PHP
+var bar6 = new ProgressBar.Line('#lang6', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#ffea82',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar6.animate(0.35);  // Number from 0.0 to 1.0
+
+
+////////// SOFTWARE //////////////

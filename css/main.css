@@ -196,6 +196,12 @@ section li {
     text-align: left;
 }
 
+.skillsbar {
+    width: 25em;
+    height: 0.1em;
+    margin: 1em 0 2em;
+}
+
 /* -------- INTERESTS ------------ */
 .contact {
     color: #000000;
