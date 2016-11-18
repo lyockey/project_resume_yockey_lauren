@@ -59,6 +59,12 @@ li {
     padding: 2.5em 0;
 }
 
+@media (min-width: 960px) {
+    .banner {
+        padding: 9em 0;
+    }
+}
+
 #tagline {
     font-size: 1.5em;
     margin: 1.5em 0.5em;
@@ -92,9 +98,10 @@ nav li:hover {
     background-color: #f6f7f7;
 }
 
-@media (min-with: 750px) {
+@media (min-width: 750px) {
     nav li {
         display: inline;
+        margin-right: 1.5em;
     }
 }
 
