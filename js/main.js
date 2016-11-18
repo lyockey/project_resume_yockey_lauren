@@ -146,3 +146,67 @@ bar9.animate(0.78);  // Number from 0.0 to 1.0
 
 
 /////// DIGITAL MARKETING //////
+//SEO
+var bar10 = new ProgressBar.Line('#dig1', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#ff0000',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar10.animate(1.0);  // Number from 0.0 to 1.0
+
+//SEM
+var bar11 = new ProgressBar.Line('#dig2', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#ff0000',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar11.animate(0.7);  // Number from 0.0 to 1.0
+
+//ANALYTICS
+var bar12 = new ProgressBar.Line('#dig3', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#ff0000',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar12.animate(0.75);  // Number from 0.0 to 1.0
+
+//SOCIAL
+var bar13 = new ProgressBar.Line('#dig4', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#ff0000',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar13.animate(0.9);  // Number from 0.0 to 1.0
+
+//COPY
+var bar14 = new ProgressBar.Line('#dig5', {
+    strokeWidth: 2,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#ff0000',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: {width: '100%', height: '100%'}
+});
+
+bar14.animate(1.0);  // Number from 0.0 to 1.0
