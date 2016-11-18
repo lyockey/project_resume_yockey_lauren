@@ -1,5 +1,10 @@
 $(document).ready(function () {
 
+    $('body').animatescroll({
+        scrollSpeed: 3000,
+        easing: 'easeOutBounce'
+    });
+
     $.toast({
         text: 'I also have accounts on <a href="https://www.linkedin.com/in/laurenyockey" target="_blank">LinkedIn</a> and <a href="https://www.github.com/lyockey" target="_blank">Github</a>', // Text that is to be shown in the toast
         heading: 'Hey there!', // Optional heading to be shown on the toast
