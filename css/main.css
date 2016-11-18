@@ -187,8 +187,9 @@ section li {
 }
 
 .copy-container {
+    width: 50%;
     margin: auto;
-    width: 60%;
+    text-align: center;
 }
 
 .skills h3,
@@ -197,9 +198,21 @@ section li {
 }
 
 .skillsbar {
-    width: 25em;
+    width: 10em;
     height: 0.1em;
     margin: 1em 0 2em;
+}
+
+@media (min-width: 550px) {
+    .skillsbar {
+        width: 15em;
+    }
+}
+
+@media (min-width: 900px) {
+    .skillsbar {
+        width: 25em;
+    }
 }
 
 /* -------- INTERESTS ------------ */
