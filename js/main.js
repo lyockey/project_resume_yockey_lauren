@@ -133,6 +133,12 @@ $(document).ready(function () {
         $('#hire').replaceWith(
             '<form method="post" action="mailto:laurenyockey@gmail.com"><input type="email" name="email" id="email" placeholder="What\'s your email?"><input type="submit" value="submit" id="submit"/></form>'
         );
+
+        $('#submit').on('click', function () {
+            $('form').replaceWith(
+                '<p>Thank you for your interest! I will be in touch shortly.</p>'
+            );
+        });
     });
 
 }); //END DOC.READY
