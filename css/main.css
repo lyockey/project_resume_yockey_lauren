@@ -84,6 +84,21 @@ li {
     font-size: 1em;
 }
 
+
+/* JQUERY ON-CLICK FORM */
+input[type="email"] {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    padding: 0.6em 3.5em;
+    border: 1px solid #d9d9d9;
+}
+
+input[type="submit"] {
+    padding: 0.65em;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: transparent;
+}
+
 nav {
     margin: 3em 0;
     width: 100%;
@@ -122,6 +137,8 @@ nav li a {
 h4,
 nav li a,
 .button,
+input[type="email"],
+input[type="submit"],
 #tagline,
 p,
 section li {
