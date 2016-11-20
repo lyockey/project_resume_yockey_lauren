@@ -129,6 +129,10 @@ $(document).ready(function () {
     });
 
     ///////// CUSTOM JQUERY ////////////
-
+    $('#hire').on('click', function () {
+        $('#hire').replaceWith(
+            '<form method="post" action="mailto:laurenyockey@gmail.com"><input type="email" name="email" id="email" placeholder="What\'s your email?"><input type="submit" value="submit" id="submit"/></form>'
+        );
+    });
 
 }); //END DOC.READY
