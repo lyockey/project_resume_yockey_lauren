@@ -128,4 +128,7 @@ $(document).ready(function () {
         },
     });
 
+    ///////// CUSTOM JQUERY ////////////
+
+
 }); //END DOC.READY
