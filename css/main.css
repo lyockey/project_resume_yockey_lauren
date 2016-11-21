@@ -46,7 +46,8 @@ h3 {
     font-size: 1.5em;
 }
 
-h4 {
+h4,
+#nut-heading {
     text-decoration: underline;
 }
 
@@ -180,10 +181,6 @@ section li {
     padding: 5em 0;
 }
 
-#nut-heading {
-    text-decoration: underline;
-}
-
 
 /* --------- EDUCATION -------- */
 .edu {
@@ -233,7 +230,7 @@ section li {
 .skillsbar {
     width: 10em;
     height: 0.1em;
-    margin: 1em 0 2em;
+    margin: 1em 0 3.8em;
 }
 
 @media (min-width: 550px) {
@@ -246,10 +243,6 @@ section li {
     .skillsbar {
         width: 25em;
     }
-}
-
-.digital {
-    margin-bottom: 3.8em;
 }
 
 
