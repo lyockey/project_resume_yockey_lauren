@@ -7,7 +7,7 @@ $(document).ready(function () {
 
         $(this.hash).animatescroll({
             scrollSpeed: 3000,
-            easing: 'easeOutBounce'
+            easing: 'easeInOutBack'
         });
     });
 
