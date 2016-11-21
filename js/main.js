@@ -2,6 +2,7 @@
 
 $(document).ready(function () {
 
+////////// ANIMATE SCROLL /////////////
     $('nav').on('click', 'a', function (event) {
         event.preventDefault();
 
@@ -11,6 +12,7 @@ $(document).ready(function () {
         });
     });
 
+///////// JQUERY TOAST ////////////
     $.toast({
         text: 'I also have accounts on <a href="https://www.linkedin.com/in/laurenyockey" target="_blank">LinkedIn</a> and <a href="https://www.github.com/lyockey" target="_blank">Github</a>', // Text that is to be shown in the toast
         heading: 'Hey there!', // Optional heading to be shown on the toast
@@ -97,7 +99,6 @@ $(document).ready(function () {
     var bar11 = new ProgressBar.Line('#dig2', digital);
 
     //ANALYTICS
-
     var bar12 = new ProgressBar.Line('#dig3', digital);
 
     //SOCIAL
@@ -141,6 +142,7 @@ $(document).ready(function () {
         // Add second event listener to SUBMIT to listen for click.
         // Replace with Thank You copy.
         $('#submit').on('click', function () {
+            $('form').submit();
             $('form').replaceWith(
                 '<p>Thank you for your interest! I will be in touch shortly.</p>'
             );
