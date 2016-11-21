@@ -129,11 +129,17 @@ $(document).ready(function () {
     });
 
     ///////// CUSTOM JQUERY ////////////
+    ////// When the HIRE ME button is clicked, it will transform into a one-line email submission form. When the user clicks submit, it will then be replaced with some 'Thank You' copy.
+
+    // Add event listener to HIRE ME to listen for click.
+    // Replace with email input form.
     $('#hire').on('click', function () {
         $('#hire').replaceWith(
             '<form method="post" action="mailto:laurenyockey@gmail.com"><input type="email" name="email" id="email" placeholder="What\'s your email?"><input type="submit" value="submit" id="submit"/></form>'
         );
 
+        // Add second event listener to SUBMIT to listen for click.
+        // Replace with Thank You copy.
         $('#submit').on('click', function () {
             $('form').replaceWith(
                 '<p>Thank you for your interest! I will be in touch shortly.</p>'
