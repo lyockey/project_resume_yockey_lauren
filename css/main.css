@@ -221,6 +221,10 @@ section li {
     text-align: center;
 }
 
+.skills h3 {
+    margin-top: 2.5em;
+}
+
 .skills h3,
 .skills li {
     text-align: left;
@@ -243,6 +247,11 @@ section li {
         width: 25em;
     }
 }
+
+.digital {
+    margin-bottom: 3.8em;
+}
+
 
 /* -------- INTERESTS ------------ */
 .contact {
