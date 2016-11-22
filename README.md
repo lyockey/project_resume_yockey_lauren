@@ -77,8 +77,6 @@ _I reviewed the list of deductions for this project and in the syllabus._
 
 2. I was going for a really sleek and clean design, so that is why everything is centered and given its own line throughout the different screen sizes. I also wanted the sections without a background image to be free of too many colors or too much text, since the sections with background images offered so much visually. I also wanted the interactivity/animation of the page to be the focus more than the design.
 
-3. The jQuery Hire Me form won't actually validate for some reason. I was hoping there was a way to have the form work without needing a PHP form file to go with it, and from what I could tell from my research it should be working well enough with just the `action="mailto:laurenyockey@gmail.com"` attribute.
-
-4. Instead of listing my contact information, I placed my contact in the form of links, as I don't typically like to display my private information for the whole world to see. And I thought the buttons just fit better with the site.
+4. Instead of listing my contact information, I placed my contact in the form of links, as I don't typically like to display my private information for the whole world to see :) And I thought the buttons just fit better with the simplicity of the site.
 
 5. Other than all of the bugs I ran into, this was a really fun project! I've been wanting a better personal website and this was a great opportunity to make one that I can use professionally. Thanks!
